@@ -1,0 +1,40 @@
+.photo{
+	height: 208px;
+	width: 130px;
+	background-image: url("../img/photo.png");
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hr{
+	width: 80%;
+
+}
+
+section{
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 70px;
+}
+
+.footer{
+	text-align: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #333;
+}
