@@ -4,60 +4,46 @@
 }
 .wrapper{
 	margin: 0 auto;
-	width: 960px;
+	width: 1060px;
 	border-left: 1px solid #bbb;
 	border-right: 1px solid #bbb;
-
-
+}
+a.textcolor{
+	color: #fff;
 }
 .nav_top_el{
+	box-sizing: border-box;
 	display: inline-block;
-	color: #fff;
-	padding: 15px;
-	font-size: 1.2em;
-	margin-right: -3px;
-
+	padding: 10px 40px;
 }
-.nav_top_el:hover{
 
-	background-color: #444444;
-}
 a{
 	text-decoration: none;
-	color: #fff;
+	color: #656363;
 }
-h2{
-	font-size: 2em;
-	margin: 0;
-	padding: 0;
-}
-h5{
-	margin: 0;
-	padding: 0;
-}
-h6{
-	margin: 0;
-	padding: 0;
-}
+
 .nav_top{
+	box-sizing: border-box;
 	margin-top: 30px;
-	background-color: #515151;
+	background-color: #555555;
+	height: 40px;
 }
-.wrapper.header{
+.header{
 
-	padding: 50px;
+	padding: 45px 50px;
 
 }
-.wrapper.section{
+
+.section{
 	padding: 0 50px;
 }
 
-.active_top{
+.nav_top_el:hover{
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	background-color: #3d3d3d;
 }
-.menu_it.active_side{
+.menu_it > a:hover{
 	background-color: #f9f9f9;
 	color: #000;
 	padding-left: 40px;
@@ -86,28 +72,30 @@ h6{
 .side{
 	display: inline-block;
 	vertical-align: top;
-	width: 680px;
-
 	margin-left: 32px;
+	width: 680px;
 	height: auto;
+	box-sizing: border-box;
 
 }
+img{
+	vertical-align: bottom;
+}
 .bike{
-	
-	background-image: url("../img/bike.png");
+	padding: 40px 90px;
 	height: 400px;
 	border: 1px solid #ccc;
+	box-sizing: border-box;
 
 }
 .text{
 	margin-top: 20px;
-	width: 650px;
-	padding-left: 20px;
+	padding-left: 27px;
 	padding-top: 15px;
 	padding-bottom: 60px;
 	padding-right: 20px;
 }
-.wrapper.footer{
+.footer{
 	padding: 0 50px;
 	padding-bottom: 50px;
 }
@@ -119,13 +107,16 @@ h6{
 	display: inline-block;
 	padding: 10px 15px;
 	padding-right: 50px;
-	color: #;
+	color: #000;
 }
 .teg {
 	display: inline-block;
 	float: right;
 	padding-right: 20px;
 }
-.active_bot{
+.nav_bot_el.teg:hover{
+	text-decoration: none;
+}
+.nav_bot_el:hover{
 	text-decoration: underline;
 }
