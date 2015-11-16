@@ -101,8 +101,11 @@ li.menu_it:hover{
 	padding-right: 20px;
 }
 
+.footer{
+	background:  #e1e1e1;
+}
 .nav_bot{
-	background-color: #e1e1e1;
+	display: inline-block;
 	height: 40px;
 }
 .nav_bot_el{
@@ -114,11 +117,9 @@ li.menu_it:hover{
 .teg {
 	display: inline-block;
 	float: right;
-	padding-right: 20px;
+	padding: 10px 20px;
 }
-.nav_bot_el.teg:hover{
-	text-decoration: none;
-}
+
 .nav_bot_el:hover{
 	text-decoration: underline;
 }
