@@ -159,20 +159,27 @@ body {
 
 
 /*columns*/
-
+h4{
+	color: #424c43;
+	text-align: center;
+}
 .fon1 {  
 	width: 100%;
 	background: #edeef0;
 	float: left;
 	position: relative; 
-	right: 58%; 
+	right: 56%;
+	border-right: 1px solid #c7cacf;
+ 
 }
 .fon2 {
 	width: 100%;	
 	background: #fff;
 	float: left;
 	position: relative;
-	right: 21%; 
+	right: 22%;
+	border-right: 1px solid #c7cacf;
+
 }
 .fon3 {
 	width: 100%;
@@ -180,40 +187,37 @@ body {
 	float: left;
 }
 .leftColumn {
-	width: 21%;
+	width: 22%;
 	float: left;
 	overflow: hidden; 
 	position:relative;
-	left: 79%; 
+	left: 78%; 
 	padding: 8px;
 	box-sizing:border-box;
-	border-right: 1px solid #c7cacf;
-
-
 }
 .centerColumn {
-	width: 58%;
+	width: 56%;
 	float: left;
 	overflow: hidden;
 	position:relative;
-	left: 79%;
+	left: 78%;
 	padding: 8px;
 	box-sizing:border-box;
 }
 .rightColumn {
-	width: 21%;
+	width: 22%;
 	float: left;
 	overflow: hidden;
 	position:relative;
-	left: 79%;
+	left: 78%;
 	padding: 8px;
 	box-sizing:border-box;
-	border-left: 1px solid #c7cacf;
 }
 .columns{
 	overflow: hidden;
 }
 .footer{
 	padding: 5px;
+	color: #fff;
 	text-align: center;
 }
