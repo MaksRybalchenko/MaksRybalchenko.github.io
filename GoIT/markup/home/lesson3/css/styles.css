@@ -94,24 +94,16 @@ li.menu_it:hover{
 
 }
 .text{
-	margin-top: 20px;
-	padding-left: 27px;
-	padding-top: 15px;
-	padding-bottom: 60px;
-	padding-right: 20px;
+	padding: 38px 25px;
 }
 
 .footer{
 	background:  #e1e1e1;
 }
-.nav_bot{
-	display: inline-block;
-	height: 40px;
-}
+
 .nav_bot_el{
 	display: inline-block;
-	padding: 10px 15px;
-	padding-right: 50px;
+	padding: 10px 35px;
 	color: #5c5c5c;
 }
 .teg {
