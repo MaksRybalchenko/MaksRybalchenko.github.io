@@ -1,0 +1,31 @@
+body{
+	width: 500px;
+	margin: 0 auto;
+}
+
+table, tr, td{
+	border: 10px solid #2b3531;
+	border-collapse: collapse;
+}
+td{
+	width: 62px;
+	height: 55px;
+}
+.raise{
+	height: 130px;
+}
+.extend{
+	width: 150px;
+}
+.red{
+	background: #ff5f31;
+}
+.yellow{
+	background: #fff464;
+}
+.blue{
+	background: #074381;
+}
+.grey{
+	background: #384540;
+}
