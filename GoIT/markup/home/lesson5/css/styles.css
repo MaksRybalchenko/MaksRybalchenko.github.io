@@ -93,11 +93,6 @@ body{
 	color:#fff;
 }
 
-.menu_item.sub:hover{
-	background-position: 0 0;
-	background-image:
-		-webkit-linear-gradient(#51b1dc, #2e7ac4);
-}
 .up{
 	text-decoration: underline;
 }
