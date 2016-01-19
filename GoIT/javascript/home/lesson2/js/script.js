@@ -1,3 +1,4 @@
+
 var names = [];
 
 //names entering
@@ -9,15 +10,14 @@ for (var i = 0; i < 5; i++) {
 var userName = prompt('Enter user name: ');
 
 //looking for a sertain name
-for (var i = 0; i < names.length; i++) {
-	if (names[i] == userName){
-	 	alert(userName + ', you successfully entered!');
-	 	userName = false;
-	 	continue;
-	 };
-};
+search(userName);
 
-//checking if the namae was found
-if (userName != false) {
+function search (searchName) {
+	for (var i = 0; i < names.length; i++) {
+		if (names[i] == searchName){
+		 	alert(searchName + ', you successfully entered!');
+		 	return;
+		};
+	};
 	alert('Error! The name was not found.')
-};
+}
