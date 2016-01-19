@@ -441,7 +441,8 @@ label{
 	display: inline-block;
 }
 .logo_list{
-	display: inline-block;
+	
+3	2isplay: inline-block;*-=5312/*
 	margin: -3px -6px 0 14px;
 	vertical-align: middle;
 }
