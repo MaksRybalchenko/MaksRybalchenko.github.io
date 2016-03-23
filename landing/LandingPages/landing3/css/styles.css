@@ -1,0 +1,526 @@
+body{
+	color: #000;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+.wrapper{
+	width: 910px;
+	margin: 0 auto;
+}
+
+
+/*HEADER*/
+
+
+.phone_numbers{
+	display: inline-block;
+}
+.phone_numbers > p{
+	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-size: 18.5px;
+	color: #5e696d;
+	vertical-align: middle;
+	padding: 2px 2px 1px 1px;
+	margin: 5px 3px 1px -1px;
+}
+.phone_numbers::before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 22px;
+	width: 22px;
+	background: url("../img/phone.png") center, linear-gradient(#0c3357, #1e6584);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	margin: 3px 0 -1px 7px;
+}
+
+/******/
+.log_in{
+	display: inline-block;
+	
+	font-size: 11px;
+	background: -webkit-linear-gradient(#1f6787, #0d3458);
+	border-radius: 3px;
+	box-shadow: 3px 5px 5px #b9b9b9;
+	margin: 8px;
+	padding: 3px;
+	margin-bottom: 11px;
+}
+.log_in > form{
+	display: inline-block;
+}
+
+form:first-child::before{
+	content: "";
+	display: inline-block;
+	background: url("../img/shape.png") center no-repeat;
+	width: 14px;
+	height: 18px;	
+	margin: 1px 0 -6px 3px;
+}
+.field{
+	width: 115px;
+	height: 18px;
+	font-size: 11px;
+	color: #97a2a6;
+	border: 1px solid #7b8c96;
+	border-radius: 3px;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 4px;
+	margin: 0 1px 1px 1px;
+	outline: none;
+}
+.enter{
+	border: none;
+	background: none;
+	color: #fff;
+	
+	font-size: 10.7px;
+	padding: 1px 0 0 3px;
+	cursor: pointer;
+}
+.registration::before{
+	content: "";
+	display: inline-block;
+	height: 10px;
+	width: 1px;
+	background: #fff;
+	margin: 0 4px -2px 2px;
+}
+.registration{
+	color: #fff;
+	
+	font-size: 10.7px;
+	text-decoration: none;
+}
+.fogoten_password{
+	color: #bfbfbf;
+	font-size: 12px;
+	margin: 0 8px 0 16px;
+}
+.fogoten_password:hover{
+	text-decoration: underline;
+}
+
+/*******/
+.icons{
+	display: inline-block;
+	border: 1px solid #bfc6c9;
+	border-radius: 10px;
+	box-shadow: 3px 3px 15px #aaa;
+	height: 21px;
+	box-sizing: border-box;
+	padding: 0 10px 1px 6px;
+	margin: 1px 0 0 5px;
+
+}
+.icon{
+	display: inline-block;
+	vertical-align: middle;
+	width: 14px;
+	height: 11px;
+	padding: 1px 0 0 2px;
+	margin: 3px 1px 0 0;
+} 
+.icon1{
+	background: url("../img/home.png") center no-repeat;
+	display: inline-block;
+}
+.icon2{
+	background: url("../img/map.png") center no-repeat;
+	display: inline-block;
+}
+.icon3{
+	background: url("../img/letter.png") center no-repeat;
+	display: inline-block;
+}
+
+/*****/
+.banner{
+	background: url("../img/banner.jpg");
+	width: 910px;
+	height: 237px;
+}
+
+
+/*MAIN*/
+
+.topbar{
+	width: 100%;
+	height: 34px;
+	margin-top: 6px;
+	background: -webkit-linear-gradient(top, #4d5663 5%, #2d3236 10%, #020202);
+	border: 1px solid #20284d;
+	border-radius: 4px;
+	box-shadow: 3px 4px 15px #50525e;
+	box-sizing: border-box;
+}
+.order{
+	margin: 6px  18px;
+	float: right;
+}
+.order_item{
+	display: inline-block;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 11px;
+	color: #929b9f;
+	vertical-align: middle;
+	padding-right: 9px;
+}
+
+#quantity{
+	display: inline-block;
+	color: #0d5a8f;
+	font-size: 12px;
+	margin-right: 3px;
+}
+#price{
+	display: inline-block;
+	color: #0d5a8f;
+	font-size: 12px;
+	margin: 0 -9px 0 9px;
+}
+#cart{
+	background: url("../img/cart.png") no-repeat;
+	display: block;
+	width: 21px;
+	height: 17px;
+	margin-right: -5px;
+}
+
+
+
+.menu{
+	float: right;
+	margin: 6px 31px 0 0;
+}
+.menu_item{
+	display: inline-block;
+}
+.menu_item > a:hover{
+	background: #154b6d;
+	border-radius: 10px;
+	color: #fff;
+}
+.menu_item > a{
+	line-height: 17px;
+	display: inline-block;
+	
+	font-size: 14px;
+	color: #b1bcc0;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	padding: 2px 22px 1px 13px;
+	margin: 0 -7px 0 -6px;
+}
+
+
+/*SECTION*/
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+section{
+	margin-top: 15px;
+	font-family:  Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+
+.left_column{
+	float: left;
+	width: 192px;
+}
+.right_column{
+	float: right;
+	width: 192px;
+	box-sizing:border-box;
+	padding-left: 10px;
+}
+.name{
+	width: 180px;
+	box-sizing: border-box;
+	border: 1px solid #8b979c;
+	border-radius: 12px;
+	box-shadow: 2px 3px 10px -3px #50525e;
+	color: #114165;
+	font-size: 13px;
+	
+	text-transform: uppercase;
+	margin: 4px 0 9px 1px;
+	padding: 0 0 0 0;
+}
+.name::before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin: 3px;
+	height: 20px;
+	width: 20px;
+	background: url("../img/list.png") center, linear-gradient(#0c3357, #1e6584);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+}
+.catalog{
+	width: 182px;
+}
+.catalog_sublist_item{
+	box-sizing: border-box;
+	padding-left: 36px;
+	display: block;
+	margin: -2px 0 0 0;
+}
+.catalog_sublist_item > a{
+	display: inline-block;
+	padding: 10px 0 3px 4px;
+	color: #465961;
+	text-transform: capitalize;
+
+}
+.catalog_sublist_item > a:hover{
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 15.4px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #0c3256;
+	padding: 1px 3px;
+	margin-top: 10px;
+	list-style-type: circle;
+}
+/*.sublist li:hover a::before{
+	content: url("../img/small_circle_hover.png");
+}*/
+.catalog_sublist_item::before{
+	content: url("../img/small_circle.png");
+}
+.catalog_item_name>h6, .brand_item_name> h6{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0 0 0;
+	margin: 0 0 -1px -1px;
+}
+.catalog_item_name, .brand_item_name{
+	width: 152px;
+	border: 1px solid #8b979c;
+	border-radius: 20px;
+	box-sizing: border-box;
+	color: #114165;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: 0 0 0 7px;
+	margin: 0 0 0 0;
+}
+.catalog_item_name::before, .brand_item_name::before{
+	display: inline-block;
+	content: url("../img/big_circle.png");
+	vertical-align: middle;
+	padding: 0 2px 0 0;
+	margin: 1px 1px 0 0;
+}
+.brand_item_name{
+	margin: 11px 0 -3px 13px;
+	font-size: 14px;
+	width: 137px;
+}
+.brand_item{
+	margin: 2px -1px -6px -2px;
+}
+.brand_sublist_item{
+	display: block;
+	padding: 1px 19px;
+	margin: 6px 0 0 5px;
+	color: #465961;
+	text-transform: capitalize;
+}
+.brand_sublist_item > label, .brand_sublist_item > input, .submit:hover{
+	cursor: pointer;
+}
+label{
+	display: inline-block;
+}
+.submit{
+	width: 80px;
+	background: -webkit-linear-gradient(#1f6787, #1f6787);
+	border: 1px solid #164e70;
+	border-radius: 15px;
+	box-shadow: 2px 3px 10px -3px #164e6d;
+	color: #e5e9ea;
+	font-size: 11px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 6px 7px 5px 8px;
+	margin: 12px 24px;
+	outline: none;
+}
+.submit:hover{
+
+}
+
+.content{
+	width: 526px;
+	margin: 0 auto;
+	padding: 10px 7px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background: -webkit-linear-gradient(#e4e7e8, #93a7b0);
+}
+
+.tire_object{
+	display: inline-block;
+	margin: -3px 1px 0 4px;
+	padding: 0 0 5px 0;
+}
+.tire_pic{
+	width: 137px;
+	height: 127px;
+	margin: 5px 10px;
+	border: 1px solid #c1c8ca;
+	border-radius: 10px;
+	background: #fff;
+}
+.tire_brand_name > a{
+	display: block;
+	text-align: center;
+	
+	font-size: 15px;
+	color: #206988;
+	text-transform: capitalize;
+	padding: 2px 0 0 0;
+	margin: 8px 0 0 1px;
+}
+.tire_description{
+	text-align: center;
+	
+	font-size: 13px;
+	color: #1f2528;
+	text-transform: capitalize;
+	margin: 0 0 -4px 0;
+}
+.tire_price{
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	color: #114165;
+	padding: 0 0 2px 2px;
+	margin: -3px -3px 13px 0;
+}
+.tire_price >span{
+	font-size: 12px;
+}
+.goodyear.tire_pic{
+	background: url("../img/goodyear_pic.jpg") center, #fff;
+	background-repeat: no-repeat;
+}
+.nokian.tire_pic{
+	background: url("../img/nokian_pic.jpg") center, #fff;
+	background-repeat: no-repeat;
+}
+.hankook.tire_pic{
+	background: url("../img/hankook_pic.jpg") center, #fff;
+	background-repeat: no-repeat;
+}
+/*logos*/
+
+.logo{
+	width: 704px;
+	margin: 40px auto 0;
+}
+.logo > ul > li{
+	display: inline-block;
+}
+.logo_list{
+	display: inline-block;
+	margin: -3px -6px 0 14px;
+	vertical-align: middle;
+}
+/*.item1{
+	background: url("../img/logo1.jpg") no-repeat;
+
+}
+.item2{
+	background: url("../img/logo2.jpg") no-repeat;
+
+}
+.item3{
+	background: url("../img/logo3.jpg") no-repeat;
+
+}
+.item4{
+	background: url("../img/logo4.jpg") no-repeat;
+
+}
+.item5{
+	background: url("../img/logo5.jpg") no-repeat;
+
+}
+.item6{
+	background: url("../img/logo6.jpg") no-repeat;
+
+}
+.item7{
+	background: url("../img/logo7.jpg") no-repeat;
+
+}
+.item8{
+	background: url("../img/logo8.jpg") no-repeat;
+
+}
+
+
+/*FOOTER*/
+
+footer{
+	height: 100px;
+	background: #213a4d;
+	border: 1px solid #242c3e;
+	border-radius: 2px;
+	border-bottom: none;
+	margin:  23px 0 0 0;
+}
+.footbar{
+	display: table;
+	margin: 0 auto;
+	padding: 8px 0 0 2px;
+}
+.footbar_item{
+	display: inline-block;
+	padding: 0 1px 0 0;
+	margin: 0 0 0 2px;
+}
+.footbar_item > a{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 13.2px;
+	color: #bec6c9;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 0;
+}
+.footbar_item > a:hover{
+	color: #52abcb;
+}
+.footbar > li{
+	line-height: 12px;
+	border-right: 1.5px solid #bec6c9;
+}
+.footbar > li:last-child{
+	border-right: none;
+}
+.footbar > p{
+	color: #7f4740;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 10px;
+	box-sizing: border-box;
+	padding: 6px 5px 0 0;
+}
