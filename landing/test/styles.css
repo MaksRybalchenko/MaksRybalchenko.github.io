@@ -1,0 +1,38 @@
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	background: rgba(5, 25, 25, 0.55);
+	color: #fff;
+}
+.bar__menu{
+	width: 70%;
+	margin: 50px auto;
+}
+.bar__menu__item{
+	position: relative;
+	margin: 0 auto;
+	
+	margin-bottom: 15px;
+}
+.bar__menu__item h3{
+	font-size: 25px;
+	text-align: center;
+
+	text-transform: uppercase;
+	border: 2px solid #333;
+	padding: 5px;
+	background: #555;
+}
+.bar__menu__item>p{
+	padding: 10px;
+}
+
+.current__fixed__bar{
+	position: fixed;
+	top: 0;
+	width: 55.96%;
+	left: 50%;
+	margin-left: -27.99%;
+	box-sizing: border-box;
+
+}
