@@ -1,7 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
  
-  
+  var bars = document.querySelectorAll(".stickyBar");
+  bars = Array.prototype.slice.call(bars);
+  var originalTop = [];
 
+  for (var i = 0; i < bars.length; i++) {
+    originalTop[i] = bars[i].getBoundingClientRect().top;
+  };
+  console.log(originalTop);
 var runOnScroll =  function(evt) {
   for (var i = 0; i < bars.length; i++) {
     
@@ -10,7 +16,7 @@ var runOnScroll =  function(evt) {
     if (rect.top < 0){
       bars[i].classList.add("current__fixed__bar");
     }
-    else if(rect.top > 0){
+    else if(window.pageYOffset < originalTop[i] && rect.top === 0){
       bars[i].classList.remove("current__fixed__bar");
     }
   };
@@ -20,8 +26,6 @@ var runOnScroll =  function(evt) {
 };
 
 
-var bars = document.querySelectorAll(".stickyBar");
-bars = Array.prototype.slice.call(bars);
 
 
 bars.forEach(function(element) {
