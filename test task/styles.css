@@ -1,0 +1,40 @@
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	background: rgba(5, 25, 25, 0.55);
+	color: #fff;
+}
+.bar__menu{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.bar__menu__item{
+	position: relative;
+	margin: 0 auto;	
+	margin-bottom: 15px;
+}
+.bar__menu__item h3{
+	font-size: 25px;
+	text-align: center;
+
+	text-transform: uppercase;
+	border: 2px solid #333;
+	padding: 5px;
+	background: #555;
+}
+.bar__menu__item > p{
+	padding: 10px;
+}
+
+.fixed__bar{
+	position: fixed;
+	top: 0;
+	width: 71.97%;
+	left: 50%;
+	margin-left: -35.99%;
+	box-sizing: border-box;
+}
+.fixed__bar + p{
+	padding-top: 47px;
+}
