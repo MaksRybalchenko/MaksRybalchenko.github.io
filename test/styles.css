@@ -30,11 +30,11 @@
 .fixed__bar{
 	position: fixed;
 	top: 0;
-	width: 71.96%;
+	width: 71.97%;
 	left: 50%;
 	margin-left: -35.99%;
 	box-sizing: border-box;
 }
 .fixed__bar + p{
-	padding-top: 45px;
+	padding-top: 47px;
 }
