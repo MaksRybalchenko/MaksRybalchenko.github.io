@@ -35,3 +35,6 @@
 	margin-left: -35.99%;
 	box-sizing: border-box;
 }
+.fixed__bar + p{
+	padding-top: 45px;
+}
