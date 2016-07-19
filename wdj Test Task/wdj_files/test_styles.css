@@ -1,0 +1,160 @@
+.screen{
+	overflow: hidden;
+}
+#remind-form{
+	display: none;
+
+	padding: 10px;
+	background: #3b5998;
+	border: 2px solid #0c1b3a;
+	border-radius: 10px;
+}
+#login-form{
+	display: none;
+
+	padding: 10px;
+	background: #3b5998;
+	border: 2px solid #0c1b3a;
+	border-radius: 10px;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.subscribe-wrapper{
+	width: 400px;
+	margin: auto;
+}
+#login-form, #remind-form{
+    	top: 100px !important;
+    	left: 50% !important;
+    	transform: translateX(-50%);
+    	margin: auto !important;
+	}
+@media (max-width: 1198px){
+	.arrow {
+	    display: none;
+	}
+	.col-lg-4 {
+	    width: 46%;
+	    margin: 0 2%;
+	    box-sizing: border-box;
+	}
+
+}
+@media (max-width: 920px){
+	.phones {
+	    display: none;
+	}
+	.col-lg-4 {
+	    width: 98%;
+	    margin: 0 auto;
+	}
+	.screen{
+		padding-bottom: 2.5em;
+	}
+	#login-form, #remind-form{
+    	top: 50px !important;
+	}
+
+}
+@media (max-width: 765px){
+	.col-lg-2{
+		width: 33.3%;
+		float: left;
+	}
+	.col-lg-3{
+		width: 50%;
+		float: left;
+	}
+	
+}
+@media (max-width: 530px){
+	.col-lg-3{
+		width: 100%;
+		float: left;
+	}
+	
+}
+
+@media (max-width: 480px){
+	#login-form, #remind-form{
+    	width: 80% !important;
+    	top: 15px !important;
+    	left: 50% !important;
+    	transform: translateX(-50%);
+    	/*margin-left: -25% !important;*/
+    	margin: auto !important;
+	}
+	.loginform-field, .submit-button, .forgot{
+		width: 98% !important;
+		font-size: 1em;
+	}
+	.index-header-small{
+		width: 98% !important;
+	}
+
+	.right-text {
+	    display: none;
+	}
+	.screen{
+		padding-bottom: 2em;
+	}
+	.col-lg-2{
+		width: 50%;
+	}
+}
+@media (max-width: 405px){
+	.subscribe-wrapper{
+	    width: 96%;
+	    margin: 0 2%;
+	}
+	.logos{
+		width: 100%;
+	}
+}
+@media (max-width: 365px){
+	.buttonWidth{
+	    width: 96%;
+	    margin: 0 2%;
+	}
+	.start-button{
+		margin-top: 1.5em;
+	}
+	.big-text{
+		font-size: 2em;
+	}
+}
+@media (max-width: 320px){
+	.getapp{
+	    font-size: 1.7em;
+	}
+	.buttonWidth{
+		font-size: 1.3em;
+	}
+	.buttonWidth img{
+	    width: 20px;
+    	height: 20px;
+	}
+	.screen{
+		padding-bottom: 1.5em;
+	}
+}
+@media (max-width: 300px){
+	.divider{
+		width: 100%;
+	}
+}
+@media (max-width: 240px){
+	.col-lg-2{
+		width: 100%;
+	}
+}
